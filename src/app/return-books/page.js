@@ -611,7 +611,7 @@ export default function TrackBooks() {
       <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
         <div className="bg-gradient-to-r from-indigo-800 to-purple-800 p-6 text-white">
           <h1 className="text-4xl font-bold tracking-tight" style={{ fontFamily: "Playfair Display, serif" }}>
-            TRACK BOOKS
+            RETURN BOOKSS
           </h1>
           <p className="mt-2 opacity-80">Monitor borrowed books and manage returns</p>
         </div>
