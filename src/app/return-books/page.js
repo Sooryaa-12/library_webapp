@@ -688,7 +688,8 @@ export default function TrackBooks() {
             <div className="grid gap-6 mb-6">
               {filteredAssignments.map((assignment) => (
                 <div
-                  key={`${assignment.isbn}-${assignment.userRegId}`}
+                  // key={`${assignment.isbn}-${assignment.userRegId}`}
+                  key={`${assignment.isbn}-${assignment.userRegId}-${assignment.takenDate}`}
                   className="bg-white border border-indigo-100 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300"
                 >
                   <div className="flex flex-col md:flex-row">
